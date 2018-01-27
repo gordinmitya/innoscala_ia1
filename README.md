@@ -1,12 +1,19 @@
 # dwitter #
 
-## Build & Run ##
+## Was implemented
 
-```sh
-$ cd dwitter
-$ sbt
-> jetty:start
-> browse
+```scala
+get("/messages") 
+get("/messages/:id") 
+post("/messages")
+put("/messages/:id")
+delete("/messages/:id")
 ```
 
-If `browse` doesn't launch your browser, manually open [http://localhost:8080/](http://localhost:8080/) in your browser.
+## References
+
+http://scalatra.org/getting-started/
+
+http://scalatra.org/getting-started/first-project.html
+
+http://scalatra.org/guides/2.3/formats/json.html
